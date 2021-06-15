@@ -27,7 +27,7 @@ a {
     text-decoration: none; }
 
 .sticky-wrapper .site-navbar .container-fluid .d-flex .site-logo a img{
-  height: 150px;
+  height: 180px;
   width: auto;
 }
 
@@ -677,9 +677,9 @@ h1, h2, h3, h4, h5,
             -webkit-transform: scale(1);
             -ms-transform: scale(1);
             transform: scale(1); }
-  .sticky-wrapper .shrink {
+  /* .sticky-wrapper .shrink {
     padding-top: 10px !important;
-    padding-bottom: 10px !important; }
+    padding-bottom: 10px !important; } */
 
 /* Blocks */
 .gradient-bg {
