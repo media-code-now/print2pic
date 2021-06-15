@@ -1,0 +1,49 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?072edb7ce6d6f66c4081dd7c7ad93287") format("truetype"),
+url("./flaticon.woff?072edb7ce6d6f66c4081dd7c7ad93287") format("woff"),
+url("./flaticon.woff2?072edb7ce6d6f66c4081dd7c7ad93287") format("woff2"),
+url("./flaticon.eot?072edb7ce6d6f66c4081dd7c7ad93287#iefix") format("embedded-opentype"),
+url("./flaticon.svg?072edb7ce6d6f66c4081dd7c7ad93287#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "creativity": "\f101",
+    "necklace": "\f102",
+    "cup": "\f103",
+    "tshirt": "\f104",
+    "printer": "\f105",
+    "pillow": "\f106",
+);
+
+.flaticon-creativity:before {
+    content: map-get($flaticon-map, "creativity");
+}
+.flaticon-necklace:before {
+    content: map-get($flaticon-map, "necklace");
+}
+.flaticon-cup:before {
+    content: map-get($flaticon-map, "cup");
+}
+.flaticon-tshirt:before {
+    content: map-get($flaticon-map, "tshirt");
+}
+.flaticon-printer:before {
+    content: map-get($flaticon-map, "printer");
+}
+.flaticon-pillow:before {
+    content: map-get($flaticon-map, "pillow");
+}
