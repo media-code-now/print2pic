@@ -681,6 +681,14 @@ h1, h2, h3, h4, h5,
     padding-top: 10px !important;
     padding-bottom: 10px !important; } */
 
+.logo .fab {
+  color: #494ca2;
+}
+.logo .fab:hover {
+  color: #7c62db;
+  transition: .5s;
+}
+
 /* Blocks */
 .gradient-bg {
   background: #8186d5;
